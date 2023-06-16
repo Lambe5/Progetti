@@ -1,0 +1,108 @@
+/** Add css rules here for your application. */
+/** Example rules used by the template application (remove for your app) */
+body {
+	background-color: #9dc7e8;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #448ccb;
+	text-align: center;
+	font-family: inherit;
+	float: inherit;
+	position: absolute;
+	top: 22%;
+	left: 55%;
+	margin: -100px 0 0 -175px
+}
+
+#header {
+	background-image:
+		url('progettoingegneria21_22/gwt/clean/images/italianbackground.jpg');
+	background-size: 1500px 300px;
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+
+#titolo {
+	margin-top: 1%;
+	margin-bottom: 2%;
+	color: #00008B;
+	font-weight: bolder;
+	font-size: 2em;
+}
+
+#portale {
+	text-align: center;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.loginPanel {
+	color: black;
+	background-color: #e5e7e8;
+	border-width: 5px;
+	border-style: solid;
+	margin-top: 5px;
+}
+
+.loginpanel-pwdField {
+	width: 20em;
+	margin-bottom: 10px;
+}
+
+.loginpanel-registerButton {
+	font-weight: bold;
+	width: 20em;
+}
+
+.loginpanel-logButton {
+	width: 20em;
+	font-weight: bold;
+}
+
+.loginpanel-emailLogField {
+	width: 20em;
+}
+
+#titolo-homePage {
+	margin-top: 1%;
+	font-size: 2em;
+	color: #00008B;
+	font-weight: bolder;
+}
+
+#homepage {
+	font-family: fantasy;
+}
+
+.homepage-InfoGen {
+	font-style: italic;
+	font-weight: lighter;
+	width: 75em;
+}
+
+.homepage-mainPanel {
+	width: 100%;
+	/*Per mettere il footer più vicino al mainPanel e non lasciare spazio vuoto*/
+	margin-bottom: -30%;
+}
+
+footer {
+	margin-top: 10%;
+	margin-bottom: 0;
+	text-align: center;
+	padding-bottom: 10px
+}
+
+.serverResponseLabelError {
+	color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+	margin: 15px 6px 6px;
+}

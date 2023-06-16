@@ -1,0 +1,17 @@
+@FinalFields, false
+[C, true, true, false, false, [C/2871596207, 2871596207
+com.google.gwt.ProgettoIngegneria.client.Account, true, false, false, false, com.google.gwt.ProgettoIngegneria.client.Account/1506738780, 1506738780
+com.google.gwt.ProgettoIngegneria.client.Docente, true, true, false, false, com.google.gwt.ProgettoIngegneria.client.Docente/925204740, 925204740
+com.google.gwt.ProgettoIngegneria.client.GreetingService, false, false, false, false, _, 3890427519
+com.google.gwt.ProgettoIngegneria.client.Segreteria, true, true, false, false, com.google.gwt.ProgettoIngegneria.client.Segreteria/2071507683, 2071507683
+com.google.gwt.ProgettoIngegneria.client.Studente, true, true, false, false, com.google.gwt.ProgettoIngegneria.client.Studente/2337449715, 2337449715
+com.google.gwt.ProgettoIngegneria.client.TipoUtente, true, true, false, false, com.google.gwt.ProgettoIngegneria.client.TipoUtente/1800158466, 1800158466
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException, true, true, true, true, com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException/3936916533, 3936916533
+com.google.gwt.user.client.rpc.RpcTokenException, true, true, false, false, com.google.gwt.user.client.rpc.RpcTokenException/2345075298, 2345075298
+com.google.gwt.user.client.rpc.XsrfToken, false, false, true, true, com.google.gwt.user.client.rpc.XsrfToken/4254043109, 4254043109
+java.lang.Exception, true, false, true, false, java.lang.Exception/1920171873, 1920171873
+java.lang.IllegalArgumentException, true, true, false, false, java.lang.IllegalArgumentException/1755012560, 1755012560
+java.lang.NumberFormatException, true, true, false, false, java.lang.NumberFormatException/3305228476, 3305228476
+java.lang.RuntimeException, true, false, true, false, java.lang.RuntimeException/515124647, 515124647
+java.lang.String, true, true, true, true, java.lang.String/2004016611, 2004016611
+java.lang.Throwable, true, false, true, false, java.lang.Throwable/2953622131, 2953622131

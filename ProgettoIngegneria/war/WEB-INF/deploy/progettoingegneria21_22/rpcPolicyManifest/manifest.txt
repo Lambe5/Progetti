@@ -1,0 +1,3 @@
+# Module progettoingegneria21_22
+# RPC service class, partial path of RPC policy file
+com.google.gwt.ProgettoIngegneria.client.GreetingService, 64A9B0B45D8392E37F0ABA0FC4487E31.gwt.rpc
