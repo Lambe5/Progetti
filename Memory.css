@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Times New Roman", Times, serif;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/myAH21.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* height: 100vh; */
+    /* width: 100%; */
+  }
+
+  nav{
+    border-bottom:  rgb(230, 225, 198) solid 2px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+  }
+
+  a{
+    text-decoration: none;
+    color:  rgb(230, 225, 198);
+    margin: 5px;
+  }
+
+  h3{
+    color: rgb(230, 225, 198);
+  }
+  
+  #movesNumber {
+    text-align: center;
+  }
+  
+  .memory-game {
+    width: 640px;
+    height: 440px;
+    margin: auto;
+    /*display: flex;*/
+    flex-wrap: wrap;
+    perspective: 1000px;
+    /*margin-top: 10%;*/
+    display: none;
+  }
+  
+  .memory-card {
+    width: calc(25% - 10px);
+    height: calc(33.333% - 10px);
+    margin: 5px;
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  }
+  
+  .memory-card:active {
+    transform: scale(0.97);
+    transition: transform 0.2s;
+  }
+  
+  .memory-card.flip {
+    transform: rotateY(180deg);
+  }
+  
+  .front-face,
+  .back-face {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    border-radius: 5px;
+    /* background: rgb(230, 225, 198); */
+    background: rgb(233, 165, 87);
+    /* border: 10px solid black; */
+    border: 10px solid rgb(158, 104, 77);
+    backface-visibility: hidden;
+  }
+  
+  .front-face {
+    transform: rotateY(180deg);
+  }
+  
+  input {
+    margin-top: 20%;
+    width: 170px;
+    height: 50px;
+    background: rgb(233, 165, 87);
+    border: 5px solid rgb(158, 104, 77);
+    border-radius: 20px;
+  }
+  
+  #endGame {
+    display: flex;
+    text-align: center;
+    margin-top: 3%;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+  }
+  
+  #title {
+    margin-top: 10%;
+  }
+  
+  #goToPlay {
+    margin-top: 20%;
+    width: 200px;
+    background: rgb(233, 165, 87);
+    border: 5px solid rgb(158, 104, 77);
+    border-radius: 20px;
+    padding: 5px;
+  }
+  
+  select {
+    margin-top: 20%;
+    width: 200px;
+    background: rgb(233, 165, 87);
+    border: 5px solid rgb(158, 104, 77);
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  #NumMosse{
+    display: none;
+  }
+  
+  @media (max-width: 395px) {
+
+    body {
+     background-position: center;
+    }
+
+    .front-face,
+    .back-face {
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+      position: absolute;
+      border-radius: 5px;
+      background: rgb(233, 165, 87);
+      border: 5px solid rgb(158, 104, 77);
+      backface-visibility: hidden;
+    }
+  
+    .memory-game {
+      width: 340px;
+      height: 240px;
+      margin: auto;
+      flex-wrap: wrap;
+      perspective: 1000px;
+      display: none;
+      margin-top: 10%;
+    }
+  }
+  
+  @media (max-width: 430px) and (min-width: 395px){
+
+    body {
+      background-position: center;
+     }
+
+    .front-face,
+    .back-face {
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+      position: absolute;
+      border-radius: 5px;
+      background: rgb(233, 165, 87);
+      border: 5px solid rgb(158, 104, 77);
+      backface-visibility: hidden;
+    }
+  
+    .memory-game {
+      width: 400px;
+      height: 300px;
+      margin: auto;
+      flex-wrap: wrap;
+      perspective: 1000px;
+      display: none;
+      margin-top: 10%;
+    }
+  }
+  
+  @media (max-width: 370px){
+
+    body {
+      background-position: center;
+     }
+     
+    label{
+      font-size: 90%;
+    }
+  }
+  

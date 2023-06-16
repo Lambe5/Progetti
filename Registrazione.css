@@ -1,0 +1,93 @@
+body{
+    font-family: "Times New Roman", Times, serif;
+    background-color: black;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/myAH8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+h1{
+    color: white;
+    font-size: 400%;
+    border-bottom: solid 2px;
+}
+
+.opzioni{
+    width: 2%;
+}
+
+#contenitore{
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 5%;
+}
+
+input{
+    background-color: white;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+#registratiButton{
+    background-color: white;
+    border-radius: 10px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+#errore{
+    color: red;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#linkReg{
+    margin-top: 20px;
+    border: orange solid 2px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+nav{
+    border-bottom: white solid 2px;
+}
+
+@media (max-width: 430px){
+
+    #contenitore{
+        margin: auto;
+        width: 60%;
+        padding: 10px;
+        text-align: center;
+        border-radius: 25px;
+        margin-top: 5%;
+    }
+
+    body{
+        background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/myAH8.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        width: 100%;
+    }
+
+    h1{
+        font-size: 300%;
+    }
+}

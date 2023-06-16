@@ -1,0 +1,141 @@
+body{
+    font-family: "Times New Roman", Times, serif;
+    background-color: black;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/myAH50.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    /* width: 100%; */
+  }
+
+nav{
+    border-bottom:  gainsboro solid 2px;
+}
+
+a{
+    text-decoration: none;
+    color:  gainsboro;
+}
+
+.opzioni{
+  width: 2%;
+}
+
+ul, h3{
+    color: gainsboro;
+}
+
+h3{
+    border-bottom: solid 2px;
+    text-align: center;
+}
+
+.operazione{
+    width: 200px;
+      /* background-color: white; */
+      border-radius: 20px;
+      text-align: center;
+}
+
+.titolo {
+    text-align: center;
+    color: white;
+    margin: auto;
+    width: 50vw;
+    /* padding: 10px; */
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 300%;
+    border-bottom: solid 2px;
+  }
+  
+  .titolo > h2 {
+    margin: 0px;
+  }
+  
+  #bacheca {
+    overflow: scroll;
+    border: 5px solid rgb(255, 200, 0);
+    width: 60vw;
+    height: 70vh;
+    margin: auto;
+    padding: 20px;
+    /*background-image: url(images/forest.jpg);
+    background-size: cover;*/
+    border-radius: 10px;
+  }
+  
+  #dashboards{
+    width: 60vw;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    gap: 2%;
+    /* border: 5px solid rgb(163, 36, 36); */
+    border: 5px solid rgb(255, 200, 0);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 1%;
+  }
+  
+  .messaggio {
+    background-color: /*rgb(193, 128, 43)*/ rgb(255, 241, 164);
+    border-radius: 5px;
+    width: 300px;
+    margin: auto;
+    padding: 5px 10px 5px 10px;
+    /*min-width: 270px;*/
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .messaggio > p {
+    margin: 0px;
+    text-align: left;
+  }
+  
+  .messaggio > img {
+    width: 250px;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  
+  #punteggi{
+    display: flex;
+    column-gap: 30%;
+    margin: auto;
+    width: 75vw;
+    height: 70vh;
+    justify-content: center;
+  }
+  
+  #contenitore{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+  }
+  
+  @media (max-width: 430px){
+
+    li, ul, h3 {
+      font-size: 85%;
+    }
+    
+    #punteggi{
+    display: flex;
+    column-gap: 10%;
+    margin: auto;
+    width: 75vw;
+    height: 70vh;
+    justify-content: center;
+  }
+
+  .titolo{
+    font-size: 150%;
+  }
+}
+  

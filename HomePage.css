@@ -1,0 +1,130 @@
+body{
+    background-color: black;
+    font-family: "Times New Roman", Times, serif;
+    /* background-image: url(images/myAH1.jpg); */
+}
+
+#sfondo > img{
+    max-height:100%;
+    max-width:100%;
+    float: right;
+    display: inline;
+    margin-top: 15%;
+}
+
+#sfondo{
+    width: 50vw;
+    height: 100vh;
+    float: right;
+}
+
+h1{
+    color: white;
+    border-bottom: solid 2px;
+    border-color: white;
+    font-size: 400%;
+}
+
+p{
+    color: gainsboro;
+}
+
+#info{
+    width: 30vw;
+    display: inline-block;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+#navNoLog{
+    border-bottom: solid 2px;
+    border-color: white;
+    display: flex;
+    gap: 40%;
+    justify-content: center;
+}
+
+#navLog{
+    border-bottom: solid 2px;
+    border-color: white;
+    display: none;
+    gap: 8.5%;
+    justify-content: center;
+}
+
+.opzioni > a{
+    text-decoration: none;
+}
+
+.opzioni > p{
+    color: white;
+}
+
+.opzioniLog > a{
+    text-decoration: none;
+}
+
+.opzioniLog > p{
+    color: white;
+}
+
+#eliminaAcc{
+    color: gainsboro;
+    background-color: rgba(240, 248, 255, 0);
+    border-color: rgba(240, 248, 255, 0);
+    cursor: pointer;
+}
+
+#logout{
+    color: gainsboro;
+    background-color: rgba(240, 248, 255, 0);
+    border-color: rgba(240, 248, 255, 0);
+    cursor: pointer;
+}
+
+
+@media (max-width: 430px){
+    
+    p, a{
+        margin: 0px;
+    }
+
+    #navNoLog{
+        border-bottom: solid 2px;
+        border-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #navLog{
+        border-bottom: solid 2px;
+        border-color: white;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #logIn{
+        margin-bottom: 5px;
+    }
+
+    #logout{
+        margin-bottom: 5px;
+    }
+
+    #info{
+        width: 35vw;
+        display: inline-block;
+        margin-top: 15%;
+        margin-left: 10%;
+    }
+
+    h1{
+        font-size: 150%;
+    }
+}
