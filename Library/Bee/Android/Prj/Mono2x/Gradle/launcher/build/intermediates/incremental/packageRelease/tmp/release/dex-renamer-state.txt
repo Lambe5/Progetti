@@ -1,0 +1,4 @@
+#Fri Nov 11 16:43:59 CET 2022
+base.0=C\:\\Users\\User\\ProgettiUnity\\ProvaUnity\\CoinRaceRetro\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
